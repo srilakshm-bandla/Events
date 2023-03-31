@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+}
+.events-container {
+  background-color: #475569;
+  max-width: 40%;
+  min-height: 100vh;
+  display: flex;
+  flex-grow: 1;
+}
+.event-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
